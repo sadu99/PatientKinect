@@ -1,0 +1,76 @@
+    <link rel="stylesheet" href="../css/jquery.fileupload.css">
+
+    <script src="../js/lib/jquery.fileupload.js"></script>
+
+            <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+<div class="container">
+
+<div class="page-header">
+    <h1><Strong>Welcome to Patient Kinect</h1></Strong>
+</div>
+
+<!-- Registration form - START -->
+<div class="container">
+    <div class="row">
+            <div class="col-md-12">
+            <form role="form">
+                <div class="well well-sm"><strong><span class="glyphicon glyphicon-asterisk"></span> Required Field</strong></div>
+                <div class="form-group">
+                    <label for="InputName">Enter Name</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span>
+                    </div> 
+                </div>
+                <div class="form-group">
+                    <label for="InputName">Enter Email</label>
+                    <div class="input-group">
+                        <input type="email" class="form-control" name="InputEmail" id="InputEmail" placeholder="Enter Email" required>
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span>
+                    </div> 
+                </div>
+                <div class="form-group">
+                    <label for="ActionType">Action Type</label>
+                <select class="form-control" name="ActionType" id="ActionType" required>
+                    <option>Email</option>
+                    <option>Text</option>
+                    <option>Call</option>        
+                </select> <br>     
+                <div class="form-group">
+                    <label for="InputEmail">Action Name</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="ActionName" name="ActionName" placeholder="Action Name" required>
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="InputMessage">Enter Message</label>
+                    <div class="input-group">
+                        <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-asterisk"></span></span>
+                    </div>
+                </div>
+                <div class="form-group">
+
+                    <label for="VoiceCommand">Voice Command</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" name="VoiceCommand" id="VoiceCommand" placeholder="Enter Voice Command">
+                    </div> 
+                </div> 
+                <div class="form-group">
+                    <label for="GestureType">Gesture Type</label>
+                <select class="form-control" name="GestureType" id="GestureType" required>
+                    <option>Hand to Head</option>
+                    <option>Hand to Shoulder</option>
+                    <option>Double Clap</option>        
+                </select> <br>  
+            <input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-right"> <br>
+        </form>
+        <br>
+    </div>
+</div>
+<!-- Registration form - END -->
+
+</div>
+
